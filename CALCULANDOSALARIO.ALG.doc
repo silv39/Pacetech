@@ -1,0 +1,32 @@
+algoritmo "Salário"
+// Função : Calcular Porcentagem
+ // Autor : Rodrigo
+// Data : 25/02/2022
+ // Seção de Declarações
+
+var
+        nome, codigo       :  real
+        salariofuc         :  real
+        reajuste           :  real
+        salarioreajustado  :  real
+
+inicio
+        // Seção de Comandos
+        // Entrada de dados
+        Escreva ("Informe o códio   do funcionario  : ")
+        leia (codigo)
+        Escreva ("Informe o nome    do funcionario  : ")
+        leia (nome)
+       Escreva ("Informe  o salário do funcionario  : ")
+       leia (salariofuc)
+       Escreva ("Informe quantos porcento será o reajuste para o funcionário: ")
+       leia (reajuste)
+       limpatela
+      salarioreajustado <- (salariofuc * reajuste) /100
+      // Saída de dados para o usuário
+     Escreval ("O código do funcionário é : ",codigo)
+     Escreval ("O nome do funcionário   é : ",nome)
+     Escreval ("Salário sem reajuste    : "  ,salariofuc)
+     Escreva ("O salário com o reajuste do : ",reajuste,"%","é: ",salarioreajustado + salariofuc)
+
+fimalgoritmo
