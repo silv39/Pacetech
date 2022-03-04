@@ -3,13 +3,11 @@ algoritmo "Salário"
  // Autor : Rodrigo
 // Data : 04/03/2022
  // Seção de Declarações
-
 var
         nome, código       :  inteiro
         salariofuc         :  real
         reajuste           :  real
         salarioreajustado  :  real
-
 inicio
         // Seção de Comandos
         // Entrada de dados
@@ -28,5 +26,4 @@ inicio
      Escreval ("O nome do funcionário   é : ",nome)
      Escreval ("Salário sem reajuste    : "  ,salariofuc)
      Escreva ("O salário com o reajuste do : ",reajuste,"%","é: ",salarioreajustado + salariofuc)
-
 fimalgoritmo
