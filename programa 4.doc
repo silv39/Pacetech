@@ -1,0 +1,49 @@
+algoritmo "desafio 4"
+var
+opcaoMenu, opcaoMenu2: inteiro
+entradaC, entradaF, saidaC, saidaF: real
+entradaDolar, entradaReal, saidaDolar, saidaReal, cotacao: real
+inicio
+
+   limpatela
+   escreval("=====================Bem vindo=================================")
+   escreval ("Escolha o que deseja:")
+   escreval("1 - Converter Celsius para Fahrenheit")
+   escreval("2 - Converter Fahrenheit para Celsius")
+   escreval("3 - Converter Real para Dolar")
+   escreval("4 - Converter Dolar para Real")
+   escreval("==============================================================")
+   leia(opcaoMenu)
+
+   
+   caso "1"
+      escreval("Informe a temperatura em C°")
+      leia(entradaC)
+      saidaF <- ((entradaC * 1.8)+32)
+      escreval("A temperatura é de: ",saidaF,"oF")
+      
+   caso "2"
+      escreval("Informe a temperatura em F°")
+      leia(entradaF)
+      saidaC <- ((entradaF - 32) / 1.8)
+      escreval("A temperatura é de: ",saidaC,"oC")
+      
+   caso "3"
+      escreval("Informe a cotação do dolar de hoje")
+      leia (cotacao)
+      escreval("Quantos Reais você quer converter?")
+      leia(entradaReal)
+      saidaDolar <- (entradaReal/cotacao)
+      escreval("O valor em Dólares é de: US$",saidaDolar:3:2)
+
+   caso "4"
+      escreval("Informe a cotação do dolar de hoje")
+      leia (cotacao)
+      escreval("Quantos Dólares você quer converter para viajar?")
+      leia(entradaDolar)
+      saidaReal <- (entradaDolar * cotacao)
+      escreval("O valor em reais é de: R$",saidaReal:3:2)
+
+   fimescolha
+
+fimalgoritmo
