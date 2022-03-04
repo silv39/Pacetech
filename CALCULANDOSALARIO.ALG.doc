@@ -1,32 +1,32 @@
-algoritmo "Sal·rio"
-// FunÁ„o : Calcular Porcentagem
+algoritmo "Sal√°rio"
+// Fun√ß√£o : Calcular Porcentagem
  // Autor : Rodrigo
-// Data : 25/02/2022
- // SeÁ„o de DeclaraÁıes
+// Data : 04/03/2022
+ // Se√ß√£o de Declara√ß√µes
 
 var
-        nome, codigo       :  real
+        nome, c√≥digo       :  inteiro
         salariofuc         :  real
         reajuste           :  real
         salarioreajustado  :  real
 
 inicio
-        // SeÁ„o de Comandos
+        // Se√ß√£o de Comandos
         // Entrada de dados
-        Escreva ("Informe o cÛdio   do funcionario  : ")
+        Escreva ("Informe o c√≥digo   do funcion√°rio  : ")
         leia (codigo)
-        Escreva ("Informe o nome    do funcionario  : ")
+        Escreva ("Informe o nome    do funcion√°rio  : ")
         leia (nome)
-       Escreva ("Informe  o sal·rio do funcionario  : ")
+       Escreva ("Informe  o sal√°rio do funcion√°rio  : ")
        leia (salariofuc)
-       Escreva ("Informe quantos porcento ser· o reajuste para o funcion·rio: ")
+       Escreva ("Informe quantos porcento ser√° o reajuste para o funcion√°rio: ")
        leia (reajuste)
        limpatela
       salarioreajustado <- (salariofuc * reajuste) /100
-      // SaÌda de dados para o usu·rio
-     Escreval ("O cÛdigo do funcion·rio È : ",codigo)
-     Escreval ("O nome do funcion·rio   È : ",nome)
-     Escreval ("Sal·rio sem reajuste    : "  ,salariofuc)
-     Escreva ("O sal·rio com o reajuste do : ",reajuste,"%","È: ",salarioreajustado + salariofuc)
+      // Sa√≠da de dados para o usu√°rio
+     Escreval ("O c√≥digo do funcion√°rio √© : ",codigo)
+     Escreval ("O nome do funcion√°rio   √© : ",nome)
+     Escreval ("Sal√°rio sem reajuste    : "  ,salariofuc)
+     Escreva ("O sal√°rio com o reajuste do : ",reajuste,"%","√©: ",salarioreajustado + salariofuc)
 
 fimalgoritmo
