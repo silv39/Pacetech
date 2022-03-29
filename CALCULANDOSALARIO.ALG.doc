@@ -6,7 +6,7 @@ algoritmo "Salário"
 var
         nome, código       :  inteiro
         salariofuc         :  real
-        reajuste           :  real
+        reajustado:  real
         salarioreajustado  :  real
 inicio
         // Seção de Comandos
